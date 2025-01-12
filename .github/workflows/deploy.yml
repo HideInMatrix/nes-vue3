@@ -2,7 +2,7 @@ name: Deploy VitePress site to Pages
 
 on:
   push:
-    branches: [master]  # 或者 main，根据你的默认分支
+    branches: [master] # 或者 main，根据你的默认分支
   workflow_dispatch:
 
 permissions:
@@ -22,31 +22,31 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 必须为 0 以获取整个 Git 历史记录，避免 VitePress 的 lastUpdated 功能失效
+          fetch-depth: 0 # 必须为 0 以获取整个 Git 历史记录，避免 VitePress 的 lastUpdated 功能失效
 
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'  # 设置 Node.js 版本
-          cache: npm  # 启用 npm 缓存以加速安装
+          node-version: "20" # 设置 Node.js 版本
+          cache: npm # 启用 npm 缓存以加速安装
 
       - name: Install dependencies
-        run: npm ci  # 使用 npm ci 来安装项目依赖，确保依赖锁定版本
+        run: npm ci # 使用 npm ci 来安装项目依赖，确保依赖锁定版本
 
       - name: Build with VitePress
-        run: npm run docs:build  # 执行 VitePress 构建命令，确保 docs 目录下的文件能被正确构建
+        run: npm run docs:build # 执行 VitePress 构建命令，确保 docs 目录下的文件能被正确构建
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist  # 将构建后的文件上传到 GitHub Pages 部署路径
+          path: /docs/.vitepress/dist # 将构建后的文件上传到 GitHub Pages 部署路径
 
   # 部署工作
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    needs: build  # 依赖于 build 作业的成功执行
+    needs: build # 依赖于 build 作业的成功执行
     runs-on: ubuntu-latest
     name: Deploy
     steps:
