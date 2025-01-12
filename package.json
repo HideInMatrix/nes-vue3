@@ -1,8 +1,14 @@
 {
-  "name": "nes-vue",
-  "private": true,
-  "version": "0.0.0",
+  "name": "@davidmorgan/nes-vue",
+  "version": "0.0.1",
   "type": "module",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HideInMatrix/nes-vue3.git"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
@@ -12,6 +18,13 @@
     "docs:build-gitee": "set GITEE=1 && pnpx vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
+  "keywords": [
+    "nes",
+    "vue3",
+    "fc",
+    "nes emulator",
+    "jsnes"
+  ],
   "dependencies": {
     "jsnes": "^1.2.1",
     "vue": "^3.5.13"
