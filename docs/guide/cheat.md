@@ -1,6 +1,5 @@
 # Cheat Code
 
-Start with v1.8.0, nes-vue supports cheat code.
 
 ## Usage
 
