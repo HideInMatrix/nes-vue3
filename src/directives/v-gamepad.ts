@@ -49,7 +49,7 @@ function resolveKeys(key: ControllerKey | ControllerKey[]) {
  * @example
  * ```vue
  * <script setup>
- * import { NesVue, vGamepad } from 'nes-vue'
+ * import { NesVue, vGamepad } from '@davidmorgan/nes-vue'
  * </script>
  *
  * <template>

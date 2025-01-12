@@ -6,7 +6,7 @@
 
 ```vue
 <script setup>
-import { NesVue, vGamepad } from "nes-vue";
+import { NesVue, vGamepad } from "@davidmorgan/nes-vue";
 </script>
 
 <template>
@@ -24,7 +24,7 @@ import { NesVue, vGamepad } from "nes-vue";
 
 ```vue
 <script setup>
-import { NesVue, vGamepad } from "nes-vue";
+import { NesVue, vGamepad } from "@davidmorgan/nes-vue";
 </script>
 
 <template>
@@ -42,7 +42,7 @@ import { NesVue, vGamepad } from "nes-vue";
 
 ```vue
 <script setup>
-import { NesVue, vGamepad } from "nes-vue";
+import { NesVue, vGamepad } from "@davidmorgan/nes-vue";
 </script>
 
 <template>
@@ -56,7 +56,7 @@ import { NesVue, vGamepad } from "nes-vue";
 
 ```vue
 <script setup>
-import { NesVue, vGamepad } from "nes-vue";
+import { NesVue, vGamepad } from "@davidmorgan/nes-vue";
 </script>
 
 <template>

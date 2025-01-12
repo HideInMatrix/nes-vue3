@@ -6,7 +6,7 @@
 
 ```vue
 <script setup>
-import { NesVue, vGamepad } from "nes-vue";
+import { NesVue, vGamepad } from "@davidmorgan/nes-vue";
 </script>
 
 <template>
@@ -22,7 +22,7 @@ You can also bind multiple buttons on the same element. A typical example is to 
 
 ```vue
 <script setup>
-import { NesVue, vGamepad } from "nes-vue";
+import { NesVue, vGamepad } from "@davidmorgan/nes-vue";
 </script>
 
 <template>
@@ -40,7 +40,7 @@ To bind the touch event, you can add the `touch` modifier (default is `mouse`):
 
 ```vue
 <script setup>
-import { NesVue, vGamepad } from "nes-vue";
+import { NesVue, vGamepad } from "@davidmorgan/nes-vue";
 </script>
 
 <template>
@@ -54,7 +54,7 @@ To bind the player 2, you can add the `p2` modifier (default is `p1`):
 
 ```vue
 <script setup>
-import { NesVue, vGamepad } from "nes-vue";
+import { NesVue, vGamepad } from "@davidmorgan/nes-vue";
 </script>
 
 <template>

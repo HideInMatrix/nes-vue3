@@ -10,7 +10,7 @@ v1.8.0 开始，nes-vue 支持金手指功能。
 
 ```vue [vue-js]
 <script setup>
-import { NesVue } from "nes-vue";
+import { NesVue } from "@davidmorgan/nes-vue";
 import { ref } from "vue";
 
 const nes = ref();
@@ -44,9 +44,9 @@ function cancelAll() {
 ```vue [vue-ts]
 <script setup lang="ts">
 import type { Ref } from "vue";
-import type { NesVueInstance } from "nes-vue";
+import type { NesVueInstance } from "@davidmorgan/nes-vue";
 import { ref } from "vue";
-import { NesVue } from "nes-vue";
+import { NesVue } from "@davidmorgan/nes-vue";
 
 const nes = ref() as Ref<NesVueInstance>;
 

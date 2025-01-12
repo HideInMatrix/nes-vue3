@@ -37,7 +37,7 @@ p2 = {
 
 ```vue
 <script setup>
-import { NesVue } from "nes-vue";
+import { NesVue } from "@davidmorgan/nes-vue";
 
 function move() {
   document.dispatchEvent(new KeyboardEvent("keydown", { code: "KeyD" }));
@@ -60,7 +60,7 @@ function stop() {
 
 ```vue
 <script setup>
-import { NesVue, vGamepad } from "nes-vue";
+import { NesVue, vGamepad } from "@davidmorgan/nes-vue";
 </script>
 
 <template>

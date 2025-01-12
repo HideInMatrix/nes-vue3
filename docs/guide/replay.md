@@ -13,7 +13,7 @@ The first is to fetch `*.fm2` files through a URL.
 ```vue [vue-js]
 <script setup>
 import { ref } from "vue";
-import { NesVue } from "nes-vue";
+import { NesVue } from "@davidmorgan/nes-vue";
 
 const nes = ref();
 
@@ -41,9 +41,9 @@ function playVideo() {
 ```vue [vue-ts]
 <script setup lang="ts">
 import type { Ref } from "vue";
-import type { NesVueInstance } from "nes-vue";
+import type { NesVueInstance } from "@davidmorgan/nes-vue";
 import { ref } from "vue";
-import { NesVue } from "nes-vue";
+import { NesVue } from "@davidmorgan/nes-vue";
 
 const nes = ref() as Ref<NesVueInstance>;
 
@@ -79,7 +79,7 @@ The second is to directly read the plain text string of the `*.fm2` file.
 ```vue [vue-js]
 <script setup>
 import { ref } from "vue";
-import { NesVue } from "nes-vue";
+import { NesVue } from "@davidmorgan/nes-vue";
 
 const nes = ref();
 
@@ -103,9 +103,9 @@ function playVideo() {
 ```vue [vue-ts]
 <script setup>
 import type { Ref } from 'vue'
-import type { NesVueInstance } from 'nes-vue'
+import type { NesVueInstance } from '@davidmorgan/nes-vue'
 import { ref } from 'vue'
-import { NesVue } from 'nes-vue'
+import { NesVue } from '@davidmorgan/nes-vuee'
 
 const nes = ref() as Ref<NesVueInstance>
 

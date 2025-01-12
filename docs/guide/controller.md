@@ -37,7 +37,7 @@ Otherwise, you can manually trigger `document`'s `keydown` and `keyup` events to
 
 ```vue
 <script setup>
-import { NesVue } from "nes-vue";
+import { NesVue } from "@davidmorgan/nes-vue";
 
 function move() {
   document.dispatchEvent(new KeyboardEvent("keydown", { code: "KeyD" }));

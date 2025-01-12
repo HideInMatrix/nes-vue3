@@ -10,7 +10,7 @@ Just like the cheat code in VirtuaNES, The format of cheat code is `xxxx-yz-vv`,
 
 ```vue [vue-js]
 <script setup>
-import { NesVue } from "nes-vue";
+import { NesVue } from "@davidmorgan/nes-vue";
 import { ref } from "vue";
 
 const nes = ref();

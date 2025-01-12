@@ -325,8 +325,8 @@ function loadIndexedDB(id: string) {
  * @example
  * ```ts
  * import { ref } from 'vue'
- * import type { NesVueInstance } from 'nes-vue'
- * import { NesVue } from 'nes-vue'
+ * import type { NesVueInstance } from '@davidmorgan/nes-vue'
+ * import { NesVue } from '@davidmorgan/nes-vue'
  *
  * const nes = ref<NesVueInstance | null>(null)
  * const id = 'example'
@@ -361,8 +361,8 @@ function save(id: string) {
  * @example
  * ```ts
  * import { ref } from 'vue'
- * import type { NesVueInstance } from 'nes-vue'
- * import { NesVue } from 'nes-vue'
+ * import type { NesVueInstance } from '@davidmorgan/nes-vue'
+ * import { NesVue } from '@davidmorgan/nes-vue'
  *
  * const nes = ref<NesVueInstance | null>(null)
  * const id = 'example'

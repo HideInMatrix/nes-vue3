@@ -5,8 +5,8 @@ All methods are mounted on component instances. If you use TypeScript, you can o
 ```vue
 <script setup lang="ts">
 import { ref } from "vue";
-import { NesVue } from "nes-vue";
-import type { NesVueInstance } from "nes-vue";
+import { NesVue } from "@davidmorgan/nes-vue";
+import type { NesVueInstance } from "@davidmorgan/nes-vue";
 
 const nes = ref<NesVueInstance>();
 </script>
@@ -127,9 +127,9 @@ function load() {
 ```vue [vue-ts]
 <script setup lang="ts">
 import type { Ref } from "vue";
-import type { NesVueInstance } from "nes-vue";
+import type { NesVueInstance } from "@davidmorgan/nes-vue";
 import { ref } from "vue";
-import { NesVue } from "nes-vue";
+import { NesVue } from "@davidmorgan/nes-vue";
 
 const nes = ref() as Ref<NesVueInstance>;
 const id = "example";

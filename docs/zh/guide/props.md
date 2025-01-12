@@ -22,7 +22,7 @@ NES 游戏的 ROM 地址，**必须！**
 ```vue
 <script setup>
 import { ref } from "vue";
-import { NesVue } from "nes-vue";
+import { NesVue } from "@davidmorgan/nes-vue";
 const url = ref(
   "https://hideinmatrix.github.io/nes-vue/Super Mario Bros (JU).nes"
 );
