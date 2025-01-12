@@ -2,6 +2,9 @@
   "name": "@davidmorgan/nes-vue",
   "version": "0.0.1",
   "type": "module",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/nes-vue.es.js",
+  "main": "./dist/nes-vue.umd.js",
   "files": [
     "dist"
   ],
